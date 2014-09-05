@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+        package="hugonicolau.openbrailleinput">
+        
+    <uses-sdk android:minSdkVersion="12" android:targetSdkVersion="12"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+    <application android:label="@string/ime_name">
+        
+        <!-- Declares the input method service -->
+        <service android:name="hugonicolau.openbrailleinput.ime.OpenBrailleInput"
+                android:permission="android.permission.BIND_INPUT_METHOD"
+                android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+        
+        <!-- Declares an activity for controlling the IME settings -->
+        <activity android:name="hugonicolau.openbrailleinput.ime.UserPreferenceActivity" 
+            android:label="@string/ime_settings">
+	        <intent-filter>
+	            <action android:name="android.intent.action.MAIN"/>
+	        </intent-filter>
+	    </activity>
+	    
+    </application>
+</manifest>

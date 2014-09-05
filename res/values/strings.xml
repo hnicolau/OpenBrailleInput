@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">OpenBraille Input</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    
+    <!-- Labels on soft keys -->
+    <string name="ime_settings">OpenBraille Input Preferences</string>
+    
+    <!--             -->
+    <!-- Preferences -->
+    <!--             -->
+    
+    <!-- language -->
+    <string name="prefLanguage">hugonicolau.openbraille.language</string>
+    
+    <!-- backspace -->
+    <string name="prefBackspace">hugonicolau.openbraille.backspace</string>
+    
+    <!-- close -->
+    <string name="prefClose">hugonicolau.openbraille.close</string>
+    
+    <!-- finger tracking -->
+    <string name="prefSymbols">hugonicolau.openbraille.symbols</string>
+    
+    <!-- finger tracking -->
+    <string name="prefFingerTracking">hugonicolau.openbraille.fingertracking</string>
+    
+    <!-- speech -->
+    <string name="prefSpeechWord">hugonicolau.openbraille.speechword</string>
+    <string name="prefSpeechUp">hugonicolau.openbraille.speechup</string>
+    <string name="prefSpeechDown">hugonicolau.openbraille.speechdown</string>
+    
+    <!-- sound -->
+    <string name="prefSound">hugonicolau.openbraille.sound</string>
+    
+    <!-- vibration -->
+    <string name="prefVibration">hugonicolau.openbraille.vibration</string>
+    
+    <!-- logging -->
+    <string name="prefAutoCorrect">hugonicolau.openbraille.autocorrect</string>
+    
+    <!-- logging -->
+    <string name="prefLogging">hugonicolau.openbraille.logging</string>
+    
+    <!-- centroids -->
+    <string name="prefCentroids">hugonicolau.openbraille.centroids</string>
+    <string name="prefCentroid_1X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid1xlandscape</string>
+    <string name="prefCentroid_2X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid2xlandscape</string>
+    <string name="prefCentroid_3X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid3xlandscape</string>
+    <string name="prefCentroid_4X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid4xlandscape</string>
+    <string name="prefCentroid_5X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid5xlandscape</string>
+    <string name="prefCentroid_6X_LANDSCAPE">hugonicolau.openbraille.centroids.centroid6xlandscape</string>
+    <string name="prefCentroid_1Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid1ylandscape</string>
+    <string name="prefCentroid_2Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid2ylandscape</string>
+    <string name="prefCentroid_3Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid3ylandscape</string>
+    <string name="prefCentroid_4Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid4ylandscape</string>
+    <string name="prefCentroid_5Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid5ylandscape</string>
+    <string name="prefCentroid_6Y_LANDSCAPE">hugonicolau.openbraille.centroids.centroid6ylandscape</string>
+    <string name="prefCentroid_1X_PORTRAIT">hugonicolau.openbraille.centroids.centroid1xportrait</string>
+    <string name="prefCentroid_2X_PORTRAIT">hugonicolau.openbraille.centroids.centroid2xportrait</string>
+    <string name="prefCentroid_3X_PORTRAIT">hugonicolau.openbraille.centroids.centroid3xportrait</string>
+    <string name="prefCentroid_4X_PORTRAIT">hugonicolau.openbraille.centroids.centroid4xportrait</string>
+    <string name="prefCentroid_5X_PORTRAIT">hugonicolau.openbraille.centroids.centroid5xportrait</string>
+    <string name="prefCentroid_6X_PORTRAIT">hugonicolau.openbraille.centroids.centroid6xportrait</string>
+    <string name="prefCentroid_1Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid1yportrait</string>
+    <string name="prefCentroid_2Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid2yportrait</string>
+    <string name="prefCentroid_3Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid3yportrait</string>
+    <string name="prefCentroid_4Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid4yportrait</string>
+    <string name="prefCentroid_5Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid5yportrait</string>
+    <string name="prefCentroid_6Y_PORTRAIT">hugonicolau.openbraille.centroids.centroid6yportrait</string>
+    
+</resources>

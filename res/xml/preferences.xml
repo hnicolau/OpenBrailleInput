@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="Input Language"></PreferenceCategory>
+     <ListPreference
+            android:key="@string/prefLanguage"
+            android:entries="@array/country_array"
+            android:summary="Braille country decoders"
+            android:entryValues="@array/country_array_values"
+            android:defaultValue="0"
+            android:title="Language" />
+    
+    <PreferenceCategory android:title="Keyboard"></PreferenceCategory>
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefBackspace"
+            android:summary="Enables backspace gesture: with the screen facing away, left swipe"
+            android:title="Backspace gesture" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefClose"
+            android:summary="Enables close gesture: with the screen facing away, downward swipe"
+            android:title="Close gesture" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefSymbols"
+            android:summary="Enables Braille codes for symbols: . , ?"
+            android:title="Allow symbols" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefFingerTracking"
+            android:summary="Provides higher input accuracy by adapting to user's hand shapes"
+            android:title="Finger tracking" >
+    </CheckBoxPreference>
+
+    <PreferenceCategory android:title="Feedback"></PreferenceCategory>
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefSpeechDown"
+            android:summary="Reads the character on each fingers down"
+            android:title="Speech on finger down" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/prefSpeechUp"
+            android:summary="Reads the character on last finger up"
+            android:title="Speech on finger up" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefSpeechWord"
+            android:summary="Reads the word after a blank space"
+            android:title="Speech on word entered" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefSound"
+            android:summary="Beeps on input actions such as character entered and deleted"
+            android:title="Sound on input" >
+    </CheckBoxPreference>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefVibration"
+            android:summary="Vibrates when user touches the screen"
+            android:title="Vibrate on input" >
+    </CheckBoxPreference>
+    
+    <PreferenceCategory android:title="Text Correction"></PreferenceCategory>
+    
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/prefAutoCorrect"
+        	android:summary="Corrects mistyped words automatically with space bar or punctuation."
+            android:title="Auto-correction" >
+    </CheckBoxPreference>
+    
+    <PreferenceCategory android:title="Logger"></PreferenceCategory>
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/prefLogging"
+            android:summary="Saves all touch points for posterior analysis. Data is stored locally."
+            android:title="Log touch actions" >
+    </CheckBoxPreference>
+    
+</PreferenceScreen>

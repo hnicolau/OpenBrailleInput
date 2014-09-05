@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="country_array">
+        <item name="english">English</item>
+        <item name="portuguese">Português</item>
+    </string-array>
+    
+    <string-array name="country_array_values">
+        <item name="english">0</item>
+        <item name="portuguese">1</item>
+    </string-array>
+    
+</resources>
